@@ -3,7 +3,6 @@ body {
 }
 header {
 	background-color: black;
-
 }
 header::after {
   content: '';
@@ -14,8 +13,11 @@ h3 {
 	float: left;
 	color: white;
 	margin-left: 30px;
-	font-family: Lobster;
+	font-family: Open sans;
 	font-size: 30px;	
+	padding: 0px;
+	margin: 0px;
+
 }
 nav {
 	float: right;
@@ -28,13 +30,36 @@ nav ul{
 nav li{
 	float: left;
 	margin-right: 30px;
-	margin-top: 30px;
+	margin-top: 9px;
 }
 nav a{
 	color: white;
+	font-family: Roboto;
+	text-decoration: none;
 }
-
-.page {
+.section {
 	height: 500px;
-	background-color: yellow;
+	background: white;
+	text-align: center;
+	line-height: 500px;
 }
+#para {
+	margin: auto;
+	color: white;
+	font-family: Roboto;
+	font-size: 40px;
+}
+.parallax { 
+    /* The image used */
+    background: black;
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+	line-height: 500px;
