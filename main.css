@@ -4,6 +4,7 @@ body {
 header {
 	background-color: black;
 	position: fixed;
+	width: 100%;
 }
 header::after {
   content: '';
@@ -43,6 +44,7 @@ nav a{
 	background: white;
 	text-align: center;
 	line-height: 500px;
+	position: relative;
 }
 #para {
 	margin: auto;
@@ -64,7 +66,10 @@ nav a{
     background-size: cover;
     text-align: center;
 	line-height: 500px;
-
-	#first-website {
-		background-image:;
-	}
+}
+.images {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: bottom;
+    width: 400px;
