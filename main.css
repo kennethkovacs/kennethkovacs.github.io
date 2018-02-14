@@ -54,10 +54,10 @@ nav a{
 }
 .parallax { 
     /* The image used */
-    background: black;
+    background-image: url(https://ltheme.com/wp-content/uploads/2015/09/8Free-Dark-Textured-Backgrounds.jpg);
 
     /* Set a specific height */
-    height: 500px; 
+    height: 100vh;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -67,14 +67,39 @@ nav a{
     text-align: center;
 	line-height: 500px;
 }
-.images {
-    display: inline;
-    margin: 0px;
-    margin-bottom: 10px;
-    padding: 0px;
-    vertical-align: bottom;
-    width: 350px;
+ .container {
+ 	display: grid;
+ 	grid-template-rows: repeat(2, 1fr);
+ 	grid-template-columns: repeat(4, 1fr);
+ 	width: 100%;
+ 	height: 500px;
+ 	background-color: black;
  }
- #portfolio-text {
- 	margin-bottom: 500px;
+ .portfolio-text {
+ 	grid-row: 1 / 2;
+ 	grid-column: 1/ 5;
+ 	color: white;
+ 	margin: auto;
+ 	font-family: Roboto;
+ }
+ .images {
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+ .image1 {
+ 	grid-row: 2 / 3;
+ 	grid-column: 1 / 2;
+ }
+ .image2 {
+ 	grid-row: 2 / 3;
+ 	grid-column: 2 / 3;
+ }
+ .image3 {
+ 	grid-row: 2 / 3;
+ 	grid-column: 3 / 4;
+ }
+ .image4 {
+ 	grid-row: 2 / 3;
+ 	grid-column: 4 / 5;
  }
