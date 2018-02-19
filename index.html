@@ -1,37 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Kenneth Kovacs</title>
-	<link rel="stylesheet" href="main.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Lobster" rel="stylesheet">
-</head>
-<body>
-	<header>
-		<h3>Kenneth Kovacs</h3>
-		<nav>
-			<ul>
-				<li><a href="#portfolio">Portfolio</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="https://github.com/kennethkovacs">Github</a></li>
-
-			</ul>
-		</nav>
-	</header>
-	<div class="content">
-		<div class="parallax">
-			<p id="para">The ultra-amazing web developer Kenneth Kovacs</p>
-		</div>
-		<div class="container" id="portfolio">
-			<h1 class="portfolio-text">PORTFOLIO</h1>
-			<a href="https://www.google.ca"><img src="googlescreenshot.png" class="images image1"></a>
-  			<img src="https://www.what-dog.net/Images/faces2/scroll001.jpg" class="images image2">
-  			<img src="https://www.what-dog.net/Images/faces2/scroll001.jpg" class="images image3">
-  			<img src="https://www.what-dog.net/Images/faces2/scroll001.jpg" class="images image4">	
-  		</div>
-		<div class="parallax">
-		</div>
-	</div>
-	
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Lobster" rel="stylesheet">
+    <title>Kenneth Kovacs</title>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="header">
+        <div class="header-grid">
+          <div class="logo">
+            <h3>Kenneth Kovacs</h3>
+          </div>
+          <div class="nav">
+            <a href="#portfolio"><p id="link1">Portfolio</p></a>
+            <a href="#about"><p id="link2">About</p></a>
+            <a href="https://www.github.com/kennethkovacs"><p id="link2">Github</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="intro">
+        <div class="intro-grid">
+          <div class="intro-content">
+            Welcome to the thunder dome
+          </div>
+        </div>
+      </div>
+      <div class="portfolio" id="portfolio">
+        <div class="portfolio-grid">
+          <div class="portfolio-title">
+            Portfolio
+          </div>
+          <a href="https://www.google.com"><div class="container1">
+            <img src="googlepage.jpg" class="image">
+            <div class="overlay">
+              <div class="text">Google</div>
+            </div></a>
+          </div>
+          <a href="https:www.facebook.com"><div class="container2">
+            <img src="facebookpage.jpg" class="image">
+            <div class="overlay">
+              <div class="text">Facebook</div>
+            </div></a>
+          </div>
+          <a href="https://www.youtube.com"><div class="container3">
+            <img src="youtubepage.jpg" class="image">
+            <div class="overlay">
+              <div class="text">Youtube</div>
+            </div></a>
+          </div>
+          <a href="https://www.reddit.com"><div class="container4">
+            <img src="redditpage.jpg" class="image">
+            <div class="overlay">
+              <div class="text">Reddit</div>
+            </div></a>
+          </div>
+        </div>
+      </div>
+      <div class="about" id="about">
+        <div class="about-grid">
+          <div class="about-title">
+            About
+          </div>
+          <div class="about-content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eaque neque ad repellat, recusandae, sunt magni beatae quam aut molestiae velit optio! Sed odio maiores veritatis facere alias facilis, perferendis!
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
